@@ -1,7 +1,7 @@
 node{
 
    def tomcatWeb = 'D:\\AKSHAY\\JenkinsWar\\src\\main\\webapp'
-   def tomcatBin = 'D:\\AKSHAY\\JenkinsWar\\src\\main\\webapp'
+   def tomcatBin = 'D:\\AKSHAY\\JenkinsWar\\src\\main\\bin'
    def tomcatStatus = ''
    stage('SCM Checkout'){
      git 'https://github.com/sivajavatechie/JenkinsWar.git'
