@@ -1,10 +1,10 @@
 node{
 
-   def tomcatWeb = 'D:\\AKSHAY\\JenkinsWar\\src\\main\\webapp'
-   def tomcatBin = 'D:\\AKSHAY\\JenkinsWar\\src\\main\\webapp'
+   def tomcatWeb = 'C:\\somesh\\JenkinsWar\\JenkinsWar\\src\\main\\webapp'
+   def tomcatBin = 'C:\\somesh\\JenkinsWar\\JenkinsWar\\src\\main\\webapp'
    def tomcatStatus = ''
    stage('SCM Checkout'){
-     git 'https://github.com/akshay1552/JenkinsWar.git'
+     git 'https://github.com/SomeshShinde24/JenkinsWar.git'
    }
    stage('Compile-Package-create-war-file'){
       // Get maven home path
